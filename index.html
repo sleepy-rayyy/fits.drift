@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FITS DRIFT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style2.css" />
+  <link rel="icon" type="image/jpeg" href="LOGO AND ICON.jfif" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html"><img src="LOGO AND ICON.jfif" alt="Logo" height="28" width="28" style="vertical-align:middle;border-radius:6px;"> FITS <span>DRIFT</span></a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" role="navigation">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <style>
+      .welcome-title {
+        font-size: clamp(2rem, 3.5vw + 1rem, 3.2rem);
+        font-family: Comic-Sans MS;
+        line-height: 1.1;
+        margin: 0 0 .5rem;
+        background: linear-gradient(90deg, #ffffff, #cfe0ff, #9a7bff, #ffffff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-size: 200% auto;
+        animation: shine 4s linear infinite;
+      }
+      .welcome-subtitle { color: var(--muted); margin: 0 0 1.2rem; }
+      @keyframes shine { to { background-position: 200% center; } }
+    </style>
+    <div class="container">
+      <div class="hero-copy center">
+        <h1 class="welcome-title">Welcome To FITS DRIFT</h1>
+        <p class="welcome-subtitle">Quality you can feel. Style you can trust.</p>
+        <div class="cta-group">
+          <a class="btn btn-primary" href="products.html">Shop Now</a>
+          <a class="btn btn-outline" href="about.html">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section values">
+    <div class="container grid grid-3">
+      <div class="value">
+        <div class="icon">🚚</div>
+        <h4>Fast Shipping</h4>
+        <p>Nationwide delivery with package tracking.</p>
+      </div>
+      <div class="value">
+        <div class="icon">🔒</div>
+        <h4>Secure Checkout</h4>
+        <p>Pay with confidence using trusted gateways.</p>
+      </div>
+      <div class="value">
+        <div class="icon">💬</div>
+        <h4>24/7 Support</h4>
+        <p>We’re here to help anytime you need it.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html"><img src="LOGO AND ICON.jfif" alt="Logo" height="28" width="28" style="vertical-align:middle;border-radius:6px;"> FITS <span>DRIFT</span></a>
+        <p class="muted">Quality you can feel. Style you can trust.</p>
+      </div>
+      <nav>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+      <p>© <span id="year"></span> FITS DRIFT. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
